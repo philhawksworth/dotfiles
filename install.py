@@ -3,7 +3,7 @@
 import subprocess
 import os
 
-DOTFILES_DIR = os.path.expanduser('~/dots/')
+DOTFILES_DIR = os.path.expanduser('~/dotfiles/')
 
 SYMLINKS = (
     ('.aliases', '~/.aliases'),

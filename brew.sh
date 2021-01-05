@@ -40,6 +40,7 @@ brew install youtube-dl
 brew install --cask 1password
 brew install --cask alfred
 brew install --cask google-chrome
+brew install --cask rectangle
 brew install --cask slack
 brew install --cask spotify
 brew install --cask zoom

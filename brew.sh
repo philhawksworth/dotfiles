@@ -35,6 +35,7 @@ brew install tree
 # Install third party tools
 brew install n
 brew install youtube-dl
+brew install ffmpeg
 
 # Install gui applications
 brew install --cask 1password

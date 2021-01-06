@@ -22,6 +22,7 @@ if ! zgen saved; then
     zgen load zsh-users/zsh-completions src
 
     # theme
+    zgen load mafredri/zsh-async
     zgen load sindresorhus/pure
 
     # save all to init script
@@ -35,3 +36,7 @@ source ~/.path
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
 HISTORY_SUBSTRING_SEARCH_ENSURE_UNIQUE=1
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

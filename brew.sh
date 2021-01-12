@@ -45,5 +45,6 @@ brew install --cask rectangle
 brew install --cask slack
 brew install --cask spotify
 brew install --cask zoom
+brew install --cask vlc
 
 brew cleanup

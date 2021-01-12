@@ -9,7 +9,6 @@ alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/projects"
 
-
 # Screen
 alias screen-list="screen -ls"
 alias screen-attach="screen -dRR"
@@ -67,3 +66,8 @@ alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && kil
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
+
+alias code="open -a Visual\ Studio\ Code.app $1"
+alias c="open -a Visual\ Studio\ Code.app $1"
+
+alias boop="touch $1"
